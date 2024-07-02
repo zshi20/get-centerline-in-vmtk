@@ -1,0 +1,7 @@
+\\ To compute the centerline from an STL file, use the following command in vmtk:
+
+vmtkcenterlines -ifile "path/to/your/input/file.stl" -ofile "path/to/your/output/centerline.vtp"
+
+\\ To view the calculated centerline, use the following command in vmtk:
+
+vmtkcenterlineviewer -ifile "path/to/your/output/centerline.vtp"
